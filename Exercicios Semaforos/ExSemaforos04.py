@@ -21,7 +21,6 @@ def carros_andando(id, carros, voltas):
     global chegada, sema_carros
     tempo: float = 0.0
     total_voltas: int = 3
-    pos_volta: int = 0
     tempo_total = 0
     
     with sema_carros[id - 1]:
